@@ -99,7 +99,7 @@ if __name__ == "__main__":
             centralLib.addBook(k)
         elif a == 5:
             m = input("Enter the book you want to remove: ")
-            centralLib.addBook(m)
+            centralLib.removeBook(m)
         elif a == 6:
             print("Thanks for using the library, Please come again Have a nice day!!!")
             exit()
